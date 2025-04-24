@@ -202,6 +202,8 @@ done:
     return result;
 }
 
+//////////////////////
+
 static uint32_t
 buf_copyout(buffer_t *buf, void *data_out, uint32_t datlen) {
     buf_chain_t *chain;
